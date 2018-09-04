@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Qrscan</string>
+    <string name="username">Nazwa Użytkownika</string>
+    <string name="default_username">jonas123</string>
+    <string name="username_hint">Dozwolone są tylko litery a-z, A-Z!</string>
+    <string name="password">Hasło</string>
+    <string name="default_password">Asdag</string>
+    <string name="seller">Sprzedawca</string>
+    <string name="buyer">Kupujący</string>
+    <string name="login">Zaloguj Się</string>
+    <string name="signup">Nie masz jeszcze konta? Stworzyć jeden</string>
+    <string name="Register">Zarejestrować</string>
+    <string name="wrap">wrap_content</string>
+    <string name="service_provided">Usługa świadczona:</string>
+    <string name="default_service">jedzenie</string>
+    <string name="send">Wysłać</string>
+    <string name="Scan">Skandować</string>
+    <string name="Amount_Paid">Kwota zapłacona: £</string>
+    <string name="default_amount">699</string>
+    <string name="Client_info">Brak informacji o kliencie!</string>
+    <string name="default_login">domyślne logowanie</string>
+    <string name="First_Name">Imię</string>
+    <string name="Second_Name">Nazwisko</string>
+    <string name="Email">Adres e-mail</string>
+    <string name="example1">ABC</string>
+    <string name="example2">ABCD</string>
+    <string name="example3">ABCDE</string>
+    <string name="example4">ABCWFW</string>
+    <string name="example5">aaa@gmail.com</string>
+    <string name="example6">ABCKWNI</string>
+    <string name="example7">ABCLININ</string>
+    <string name="ERR_Email">Nieprawidłowy adres e-mail</string>
+    <string name="COMP_Name">Nazwa firmy (opcjonalnie)</string>
+    <string name="pass_hint">Twoje hasło musi składać się z co najmniej 8 znaków, zawierać co najmniej jedną cyfrę i mieć mieszankę wielkich i małych liter.</string>
+    <string name="Password_retype">Wpisz ponownie hasło</string>
+    <string name="Pass_not_match">Hasła nie pasują!</string>
+</resources>

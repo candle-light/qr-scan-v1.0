@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:fitsSystemWindows="true"
+    android:background="@color/greymetal">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="56dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <ImageView android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/logo"
+        android:layout_gravity="center_horizontal" />
+
+    <!--  userName Tag -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/reg_uname"
+            android:text="@string/username"/>
+
+
+    <!--  UserName Field -->
+
+        <EditText android:id="@+id/reg_uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/example2"/>
+
+
+
+    <!--  UserName Label -->
+
+        <TextView android:id="@+id/label_uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:hint="@string/username_hint" />
+   >
+
+    <!--  Name Tag -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/reg_name"
+            android:text="@string/First_Name"/>
+
+
+    <!--  Name Field -->
+
+        <EditText android:id="@+id/reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/example3"/>
+
+
+
+    <!--  Name Label -->
+
+        <TextView android:id="@+id/label_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:hint="@string/username_hint" />
+
+
+    <!--  Surname Tag -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/reg_surname"
+            android:text="@string/Second_Name"/>
+
+
+    <!--  Surname Field -->
+
+        <EditText android:id="@+id/reg_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/example4" />
+ >
+
+
+    <!--  Surname Label -->
+
+        <TextView android:id="@+id/label_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:hint="@string/username_hint" />
+
+
+
+    <!--  Email Tag -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/reg_email"
+            android:text="@string/Email"/>
+
+
+    <!--  Email Field -->
+
+        <EditText android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:text="@string/example5" />
+
+
+    <!--  Email Label -->
+
+        <TextView android:id="@+id/label_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="@string/ERR_Email" />
+
+
+    <!--  Company Name Tag -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/reg_cname"
+            android:text="@string/COMP_Name"/>
+
+
+    <!--  CompanyName Field -->
+
+        <EditText android:id="@+id/reg_cname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/example6"/>
+
+
+
+    <!--  CompanyName Label -->
+
+        <TextView android:id="@+id/label_cname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:hint="@string/username_hint" />
+
+
+    <!--  Password Tag -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/reg_password1"
+            android:text="@string/password"/>
+
+
+    <!--  Password Field  -->
+
+        <EditText android:id="@+id/reg_password1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="@string/default_password"/>
+
+
+    <!--  Password Label -->
+
+        <TextView android:id="@+id/label_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="@string/pass_hint" />
+
+
+    <!--  Password 2 Tag -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@id/reg_password2"
+            android:text="@string/Password_retype"/>
+
+
+    <!--  Password 2 Field -->
+
+        <EditText android:id="@+id/reg_password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="@string/default_password"/>
+
+
+    <!--  Password 2 Label -->
+
+        <TextView android:id="@+id/label_password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="@string/Pass_not_match" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <!-- Buyer Checkbox -->
+        <CheckBox
+            android:id="@+id/ckb_buyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+        <!--  "Buyer" tag-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buyer" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <!-- Buyer Checkbox -->
+        <CheckBox
+            android:id="@+id/ckb_seller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+        <!--  "Buyer" tag-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/seller" />
+
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="@string/Register"/>
+
+</LinearLayout>
+</ScrollView>

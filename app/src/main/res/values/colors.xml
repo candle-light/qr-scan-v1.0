@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF1CAE</color>
+
+    <color name="greymetal">#a3a8ac</color>
+    <color name="greymetal2">#81878c</color>
+    <color name="greymetal3">#5f6468</color>
+    <color name="greymetal4">#83898c</color>
+    <color name="acpt_green1">#50af00</color>
+    <color name="dcln_red1">#D92626</color>
+    <color name="buttn_border">#23211A</color>
+
+</resources>
